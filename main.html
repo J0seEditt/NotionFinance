@@ -4,13 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NotionFinance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            box-sizing: border-box;
+            
+            font-family: "Inter", sans-serif;
+            
+        }
+        header {
+            background-color: #1E1E1E;
+            
+            height: 60px;
+            font-optical-sizing: 12px;
+            font-style: normal;
+
+            display: flex;
+            align-items: center;
+
+        }
+          header nav {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: space-between;
+          } 
+        .opcoesTopo { 
+            color: white;
+            justify-content: flex-start;
+            
+        }
+        .opcoesTopo a {
+            color: white;
+            text-decoration: none;
+        }
+        .Login{
+            justify-content: flex-end;
+        }
+        .Login a {
+            color: white;
+            text-decoration: none;
+        }
+        .apresentacao {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 852px;
+            max-width: 885px;
+            margin: 0 auto;
+            align-items: center;
+
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            border: 0;
+            display: flex;
+            gap: 20px;
+        }
+        footer {
+            background-color: #1E1E1E;
+
+
+            height: 120px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+
+        }
+        footer a {
+              color: white;
+              text-decoration: none;
+        }
+    </style>
 </head>
 <body>
 
     <header>
         <img src="img\Lofo2-NotionFinance.png" alt="logoSite" height="33px">
         <nav>
-            <div>
+            <div class="opcoesTopo">
                 <ul>
                     <li><a href=""></a>Inicio</li>
                     <li><a href="">Objetivo</a></li>
@@ -20,13 +101,13 @@
             <div class="Login">
                 <ul>
                     <li><a href="">Cadastro</a></li>
-                    <label for="">Login</label>
+                    <li><a href="">Login</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <section class="apresentao">
+    <section class="apresentacao">
 
         <h1>NotionFinance</h1>
         <h2>Site focado em auxiliar no seu controle financeiro, mantendo você por dentro de tudo o que sai do seu bolso.</h2>

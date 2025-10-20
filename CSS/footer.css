@@ -1,0 +1,15 @@
+        footer {
+            background-color: #1E1E1E;
+
+
+            height: 120px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+
+        }
+        footer a {
+              color: white;
+              text-decoration: none;
+        }

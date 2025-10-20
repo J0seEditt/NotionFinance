@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+    font-family: "Inter", sans-serif;
+
+
+}
+
+body{
+    background-color: black;
+}
+
+.conteudo{
+    color: white;
+    padding: 30px;
+
+    min-height: 852px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    gap: 30px;
+}
+section {
+
+    margin: 30px;
+}
+
+hr {
+    color: white;
+}

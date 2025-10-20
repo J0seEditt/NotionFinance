@@ -1,0 +1,19 @@
+        * {
+            margin: 0;
+            border: 0;
+            box-sizing: border-box;
+            
+            font-family: "Inter", sans-serif;
+            
+        }
+        .apresentacao {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 852px;
+            max-width: 885px;
+            margin: 0 auto;
+            align-items: center;
+
+        }

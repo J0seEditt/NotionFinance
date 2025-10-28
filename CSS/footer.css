@@ -1,16 +1,19 @@
         footer {
             background-color: #1E1E1E;
 
-
+            flex: 1;
             height: 120px;
-            width: 1440px;
+            width: 100%;
             display: flex;
-            justify-content: flex-start;
+            justify-content: space-between;
             align-items: center;
-
+            
 
         }
         footer a {
               color: white;
               text-decoration: none;
+        }
+        .iflogo {
+            color: #404040;
         }

@@ -8,25 +8,27 @@
 
 }
 
-body{
+body {
     background-color: black;
 }
 
-.conteudo{
-    color: white;
-    padding: 30px;
+.conteudo {
 
-    min-height: 852px;
     display: flex;
     flex-direction: column;
-    align-content: space-around;
-    gap: 30px;
-}
-section {
-
-    margin: 30px;
-}
-
-hr {
+    justify-content: center;
+    min-height: 852px;
+    max-width: 1341px;
+    margin: 0 auto;
+    align-items: center;
     color: white;
+
+}
+.conteudo h1 {
+    font-size: 57px
+}
+.conteudo p {
+    font-size: 32px;
+    font-style: normal
+    
 }

@@ -1,79 +1,119 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+    font-family: "Inter", sans-serif;
+
+
+}
+.blocos {
+    height: 920px;
+    width: auto;
+    
+}
 body {
     background-color: #27262C;
-    display: flex;
-    flex-direction: column;
 }
+.tabela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-.icones {
-    display: flex;
-    justify-content: space-between;
 }
-.item1{
+nav img {
+    height: 37px;
+    width: auto;
+}
+.item1 {
     position: relative;
-    left: 100px;
-    top: 15px;
+    left: 40px;
 }
-.item2{
+.item2 {
     position: relative;
-    top: 15px;
+    right: 40px;
 }
-.item3{
+.item3 {
     position: relative;
-    right: 140px;
-    top: 15px;
+    right: 180px;
 }
-.item4{
+.item4 {
     position: relative;
-    right: 260px;
-    top: 15px;
+    right: 300px;
 }
-.item5{
+.item5 {
     position: relative;
     right: 250px;
-    top: 15px;
 }
-.item6{
+.item6 {
     position: relative;
-    right: 205px;
-    top: 15px;
+    right: 180px;
 }
-
-nav img {
-    height: auto;
-    width: 37px;
-}
-
-
 table {
-  font-family: "Inter", sans-serif;
-  width: 1404px;
-  height: 297px;
-  border-collapse: collapse; 
-  margin-top: 20px;
-  background-color: #5B5B5B;
-  
-}
-th, td {
-  border: 1px solid #000000;
-  padding: 10px;
-  text-align: center;
-}
-th {
-  
-  color: white;
+    font-family: "Inter", sans-serif;
+    width: 1600px;
+    height: 297px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #5B5B5B;
+    
+
+
 }
 
-.gastos{
-    height: 150px;
+th,td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+
+    color: white;
+}
+
+.gastos {
+    height: 100pxx;
     width: 200px;
     background-color: #B4B4B4;
     border-radius: 20px;
 }
+
 .mesGastos {
     display: flex;
     gap: 10px;
 }
+
 .anoGastos {
     display: flex;
     gap: 10px;
+}
+
+
+
+
+
+/*grafico */
+.graficos {
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    bottom: 300px;
+    gap: 50px;
+    
+}
+.grafico1 {
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+}
+.grafico2 {
+    display: flex;
+    
+
 }

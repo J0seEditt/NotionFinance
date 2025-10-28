@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Adicionar Saída</title>
+    <link rel="stylesheet" href="CSS/saidas.css">
+</head>
+<body>
+
+    <main class="container-principal">
+        
+        <form class="container-formulario">
+            <h2>Adicionar saída</h2>
+
+            <div class="campo-formulario">
+                <label for="data">Data</label>
+                <input type="text" id="data" value="18/10/2025">
+            </div>
+
+            <div class="campo-formulario">
+                <label for="valor">Valor</label>
+                <input type="text" id="valor" placeholder="R$ 100,00">
+            </div>
+
+            <div class="campo-formulario">
+                <label for="pagamento">Pagamento</label>
+                <input type="text" id="pagamento" placeholder="Ex.: Pix">
+            </div>
+
+            <div class="campo-formulario">
+                <label for="categoria">Categoria</label>
+                <select id="categoria">
+                    <option value="" disabled selected>Ex.: Lazer</option>
+                    <option value="lazer">Lazer</option>
+                    <option value="alimentacao">Alimentação</option>
+                    <option value="transporte">Transporte</option>
+                    <option value="moradia">Moradia</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </div>
+
+            <button type="submit" class="botao-salvar">Salvar</button>
+
+        </form>
+
+    </main> <footer>
+        <div class="rodape-topo">
+            <div>
+                <a href="#">Sobre</a>
+                <a href="#">Termos de uso</a>
+                <a href="#">Privacidade</a>
+            </div>
+            <span>© 2025 IFPE-GARANHUNS</span>
+        </div>
+    </footer>
+
+</body>
+</html>

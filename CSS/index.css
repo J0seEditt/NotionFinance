@@ -5,9 +5,11 @@
             
             font-family: "Inter", sans-serif;
             
+
         }
+
         .apresentacao {
-            
+
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -15,5 +17,19 @@
             max-width: 885px;
             margin: 0 auto;
             align-items: center;
+            color: white;
 
+        }
+        section h1 {
+            padding: 24px 0px;
+        }
+
+        body {
+            
+            
+            background-image: url('../img/1318485.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
         }

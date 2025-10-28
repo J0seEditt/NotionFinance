@@ -1,0 +1,122 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #302E36;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; /* Altura mínima de 100% (essencial para tela cheia) */
+}
+
+.conteudo-principal {
+    flex: 1; /* Faz o conteúdo "crescer" e empurrar o rodapé para baixo */
+
+    display: flex;
+    
+    /* Distribui as colunas horizontalmente na tela */
+    justify-content: space-evenly; 
+    
+    align-items: flex-start;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.coluna-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.coluna-grafico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cartao {
+    background-color: #04040e;
+    padding: 20px 25px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.cartao p {
+    color: #adb5bd;
+    margin: 0;
+}
+
+.cartao h2 {
+    margin-top: 5px;
+    font-size: 28px;
+}
+
+.grafico-rosca {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative; /* Posição base para o "buraco" */
+
+    /* Gradiente cônico (pizza) */
+    background: conic-gradient(
+        #2ecc71 0% 50%,   /* Verde */
+        #e76f51 50% 100% 
+    );
+}
+
+/* "Buraco" central do gráfico */
+.grafico-rosca::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    background: #212124; /* Cor do "buraco" (diferente do fundo) */
+    border-radius: 50%;
+}
+
+.legenda {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item-legenda {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.caixa-legenda {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+}
+
+.vermelho { background-color: #e76f51; }
+.verde { background-color: #2ecc71; }
+
+footer {
+    padding: 20px 40px;
+    color: #adb5bd;
+    font-size: 14px;
+}
+
+.rodape-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape-topo a {
+    color: #adb5bd;
+    text-decoration: none;
+    margin-right: 15px;
+}

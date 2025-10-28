@@ -1,40 +1,60 @@
         header {
             background-color: #1E1E1E;
-            
+
             height: 60px;
+            width: 100%;
             font-optical-sizing: 12px;
             font-style: normal;
-
             display: flex;
             align-items: center;
-
-        }
-          header nav {
-            display: flex;
-            align-items: center;
-            gap: 10px;
             justify-content: space-between;
-          } 
-        .opcoesTopo { 
-            color: white;
-            justify-content: flex-start;
-            
+
         }
+
+        header nav {
+            display: flex;
+            align-items: center;
+            gap: 900px;
+
+        }
+
+        .opcoesTopo {
+            color: white;
+
+        }
+
         .opcoesTopo a {
             color: white;
             text-decoration: none;
         }
-        .Login{
-            justify-content: flex-end;
+
+        .Login {
+            display: flex;
+            align-items: center;
+            gap: 15px;
         }
+
         .Login a {
             color: white;
             text-decoration: none;
         }
+
+        .btn-login {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            
+            
+        }
+
         ul {
             list-style: none;
             margin: 0;
             border: 0;
             display: flex;
+            align-items: center;
             gap: 20px;
         }
